@@ -10,7 +10,3 @@ index.cfm <br/>
         <cfinclude template="display/test.cfm">
     </cfdefaultcase>
 </cfswitch>
-
-<cfif 5 le 5>
-	<br/>true
-</cfif>
