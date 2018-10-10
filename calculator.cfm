@@ -1,6 +1,6 @@
 <!--- It is a Sample Calculator program--->
 
-<form action = "processCalculator.cfm" method = "post">
+<form name="calculation" action = "processCalculator.cfm" method = "post">
     Calculator::
 	<input type="integer" name="number1" id="number1" >
 	+
