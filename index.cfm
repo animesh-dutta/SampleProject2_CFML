@@ -1,5 +1,4 @@
-index.cfm <br/>
-<hr/>
+<!--- index.cfm --->
 <cfparam name="fa" default="">
 <cfswitch expression="#fa#">
 	<cfcase value="processForm">
