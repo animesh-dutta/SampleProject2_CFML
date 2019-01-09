@@ -1,2 +1,3 @@
-<!--- Application.cfm ---->
+<!--- Application.cfm --->
+
 <cfapplication name="test">
