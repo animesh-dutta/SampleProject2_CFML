@@ -1,5 +1,4 @@
 <cfinclude template="calculator.cfm">
-
 <cfif  len(form.number1) gt 0 and len(form.number2) gt 0 >
 	<cfif isnumeric(form.number1) and isnumeric(form.number2)>
 		<cfset variables.formVal={}>
