@@ -1,7 +1,6 @@
-<!--- index.cfm --->
+<!---  index.cfm  --->
 
 <cfparam name="fa" default="">
-
 <cfswitch expression="#fa#">
 	<cfcase value="processForm">
 		<cfinclude template="actions/act_processForm.cfm">
