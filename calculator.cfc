@@ -6,7 +6,6 @@
 		<cfset structAppend(variables.formVal,arguments)>
 		<cfreturn this>
 	</cffunction>
-	
 	<cffunction name="getAdd" output="false" access="public">
 		<cfset var result=0>
 		<cfloop collection="#variables.formVal#" item="sum">
