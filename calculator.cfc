@@ -1,5 +1,5 @@
 <cfcomponent displayname="calculator" hint="calculator" output="false">
-	<cffunction name="init" access="public">
+      <cffunction name="init" access="public">
 		<cfargument name="number1" required="true">
 		<cfargument name="number2" required="true">
 		<cfset variables.formVal={}>
