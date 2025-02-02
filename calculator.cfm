@@ -1,7 +1,4 @@
-<!--- It is a Sample Calculator program--->
-
-
-
+<!--- It is a Sample Calculator program---> 
 
 <form name="calculation" action = "processCalculator.cfm" method = "post">
     Calculator::
