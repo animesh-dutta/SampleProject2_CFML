@@ -1,4 +1,7 @@
-<!--- It is a Sample Calculator program---> 
+<!--- 
+Author:Animesh Dutta (Ananya Birla)
+It is a Sample Calculator program
+---> 
 
 <form name="calculation" action = "processCalculator.cfm" method = "post">
     Calculator::
