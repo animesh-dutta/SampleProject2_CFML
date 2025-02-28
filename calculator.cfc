@@ -1,5 +1,7 @@
+<!---
+Author:Animesh Dutta (Ananya Birla)
+--->
 <cfcomponent displayname="calculator" hint="calculator" output="false">
-
       <cffunction name="init" access="public">
 		<cfargument name="number1" required="true">
 		<cfargument name="number2" required="true">
