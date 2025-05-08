@@ -2,7 +2,7 @@
 Author:Animesh Dutta (Ananya Birla)
 It is a Sample Calculator program
 ---> 
-
+ 
 <form name="calculation" action = "processCalculator.cfm" method = "post">
     Calculator::
 	<input type="integer" name="number1" id="number1" >
