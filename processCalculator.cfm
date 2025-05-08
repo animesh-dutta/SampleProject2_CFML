@@ -2,6 +2,11 @@
 Author:Animesh Dutta (Ananya Birla) 
 ---> 
 <cfinclude template="calculator.cfm">
+<!--- The VARIABLES scope is the default scope in ColdFusion. 
+ i.e. if a variable is declared in .cfm and .cfc file without explicitly
+ prefixing a scope, or without 'var' to a variable inside a function,
+ ColdFusion assigns VARIABLES scope to that variable.--->
+
 <cfif  len(form.number1) gt 0 and len(form.number2) gt 0 >
 	<cfif isnumeric(form.number1) and isnumeric(form.number2)>
 		<cfset variables.formVal={}>
