@@ -1,6 +1,6 @@
 <!---
 Author:Animesh Dutta (Ananya Birla) 
---->  
+--->   
 <cfinclude template="calculator.cfm">
 <!--- The VARIABLES scope is the default scope in ColdFusion. 
  i.e. if a variable is declared in .cfm and .cfc file without explicitly
